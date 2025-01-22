@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AD-BLOCKER",
+  "version": "2.0",
+  "description": "A Adblocker for websites",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "declarativeNetRequest",
+    "activeTab"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
