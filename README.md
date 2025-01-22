@@ -18,7 +18,7 @@
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/yourusername/ad-blocker-extension.git
+   [git clone https://github.com/varshilmedidhi/Ad-blocker]
    cd ad-blocker-extension
    ```
 
